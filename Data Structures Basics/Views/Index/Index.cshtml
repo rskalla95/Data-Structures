@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron bg-info">
+
+    <h2 
+        class="display-3" style="color:white">Burger Consumption Chart
+
+        <a href="http://www.mlssoccer.com">
+            <img src="../burger.png" class="float-right" alt="MLS Logo" height="200" width="200">
+        </a>
+    </h2>
+</div>
+
+@Html.Raw((String)ViewBag.Output)
